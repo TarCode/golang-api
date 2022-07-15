@@ -2,7 +2,13 @@ module github.com/tarcode/go-todo
 
 go 1.18
 
-require github.com/gofiber/fiber/v2 v2.35.0
+require (
+	github.com/gofiber/fiber/v2 v2.35.0
+	github.com/jinzhu/gorm v1.9.16
+	github.com/lib/pq v1.10.6
+)
+
+require github.com/jinzhu/inflection v1.0.0 // indirect
 
 require (
 	github.com/andybalholm/brotli v1.0.4 // indirect
